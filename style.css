@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    align-self: center;
+}
+
+.purple_container {
+    margin-bottom: 0px;
+    background-color: #6943FF;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+h1 {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input {
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input [type=number] {
+    width: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    border: #FFFFFF;
+    border-radius: 5px;
+    margin: 20px;
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+.box > :nth-child(1) {
+    width: auto;
+    height: auto;
+    min-height: 109px;
+    background: #273549;
+    margin: 20px 0px;
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box > :nth-child(2) {
+    width: auto;
+    height: auto;
+    min-height: 109px;
+    background: #273549;
+    margin: 20px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box > :nth-child(3) {
+    width: auto;
+    height: auto;
+    min-height: 109px;
+    background: #273549;
+    margin: 20px 0px;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
